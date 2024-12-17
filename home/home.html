@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg2 box-shadow">
+    <header>
+        <div class="container">
+            <div class="d-flex space-between">
+                <div class="w-5 ">
+                    <div class="box text-end">
+                        <img width="70%" height="100%" src="images/image-white-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <div class="w-10 hide menu">
+                    <div class="box d-flex justify1">
+                        <i class="fa-solid fa-bars font30 fluid4"></i>
+                    </div>
+                </div>
+                <div class=" w-1 w-lg-75">
+                    <div class="box d-flex justify box123">
+                        <div class="nav  reddit font16">
+                            <a class="font16 fluid4 lh5 fw-6 space" href="">Home</a>
+                            <a class="font16 fluid4 lh5 fw-6 space" href="">About</a>
+                            <a class="font16 fluid4 lh5 fw-6 space" href="">Contacts</a>
+                            <a class="font16 fluid4 lh5 fw-6 space" href="">Terms</a>
+
+                            <button class="fluid1 font18 p-1 border-none bg1 border-radius ml20 hide1 button relative">
+                                Login/Register
+
+                                <div>
+                                    
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(".menu") .click(function() {
+        $(".box123") .slideToggle();
+    })
+</script>
+
+</html>

@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    /* padding: 10px; */
+}
+
+.border {
+    border: 1px solid red;
+}
+
+
+/* -----------------------fonts--------------------------- */
+
+.font16 {
+    font-size: 16px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.lh {
+    line-height: 1.2;
+}
+
+.lh5 {
+    line-height: 1.5;
+}
+
+.lh8 {
+    line-height: 1.8;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.fw-4 {
+    font-weight: 400;
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+.fw-6 {
+    font-weight: 600;
+}
+
+
+/* ------------------------padding---------------------------- */
+
+.p-1 {
+    padding: 12px 24px;
+}
+
+
+/* -------------------------------MARGIN----------------- */
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.ml50 {
+    margin-left: 50px;
+}
+
+/* ------------------------------Width------------------- */
+
+.w-1 {
+    width: 100%;
+}
+
+.w-2 {
+    width: 50%;
+}
+
+.w-3 {
+    width: 33.33%;
+}
+
+.w-4 {
+    width: 25%;
+}
+
+.w-5 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------height------------------ */
+
+.h-100 {
+    height: 100px;
+}
+
+
+/* ------------------------fluids----------------------------- */
+
+.fluid1 {
+    color: rgb(247, 241, 240);
+}
+
+.fluid2 {
+    color: #C3A6A0;
+}
+
+.fluid3 {
+    color: #A15C38;
+}
+
+.fluid4 {
+    color: #262220;
+}
+
+.bg1 {
+    background-color: #A15C38;
+}
+
+.bg2 {
+    background-color: #F7F1F0;
+}
+
+
+
+/* ----------------------------Justify--------------------- */
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.justify1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify {
+    justify-content: end;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+/* -----------------------------random class-------------- */
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.gara {
+    font-family: "EB Garamond", serif;
+}
+
+.reddit {
+    font-family: "Reddit Sans", sans-serif;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+.box-shadow {
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.button::before {
+    content: "f054";
+    width: 30px;
+    height: 100%;
+    border: 1px solid red;
+    border-radius: 0 50% 50% 0;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.432);
+    transform: scale(1,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.button:hover ::before{
+    transform: scale(1,1);
+}
+
+
+/* ------------------------------Hover------------------------- */
+
+.button {
+    transition: 0.3s;
+}
+
+.button:hover {
+    /* letter-spacing: 5px; */
+}
+
+.space {
+    transition: 0.3s;
+}
+
+.space:hover {
+    letter-spacing: 5px;
+    border-bottom: 5px solid #A15C38;
+}

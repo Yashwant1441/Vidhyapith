@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidhyapith</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-2 text-center">
+    <header>
+        <div class="container">
+            <div class="d-flex">
+                <div class="w-1 p-1">
+                    <div class="box">
+                        <div class="img text-center">
+                            <img class="bg-2" height="100%" width="30%" src="images/logo/download-removebg-preview.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-40">
+            <div class="d-flex">
+                <div class="w-1 h-3 p-3 d-flex justify">
+                    <div class="box d-flex justify">
+                        <div class="box1 d-flex justify">
+                            <h3 class="font-size">
+                                Menu
+                            </h3>
+                        </div>
+                        <div class="box2 d-flex justify">
+                            <a href="">About</a>
+                        </div>
+                        <div class="box3 d-flex justify">
+                            <a href="">Home</a>
+                        </div>
+                        <div class="box4 d-flex justify">
+                            <a href="">contact Us</a>
+                        </div>
+                        <div class="box5 d-flex justify">
+                            <a href="">Terms</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(".box1").click(function () {
+        $(".box2").toggleClass("box21")
+        $(".box3").toggleClass("box31")
+        $(".box4").toggleClass("box41")
+        $(".box5").toggleClass("box51")
+    })
+</script>
+
+</html>
