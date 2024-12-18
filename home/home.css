@@ -7,13 +7,21 @@
 .container {
     max-width: 1320px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+.conatiner1{
+    width: 100%;
 }
 
 .d-flex {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-evenly; */
+}
+.d-flex1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -48,6 +56,9 @@
 .font18 {
     font-size: 18px;
 }
+.font40{
+    font-size: 40px;
+}
 
 .lh {
     line-height: 1.2;
@@ -55,6 +66,9 @@
 
 .lh5 {
     line-height: 1.5;
+}
+.lh50{
+    line-height: 50px;
 }
 
 .lh8 {
@@ -83,6 +97,15 @@
 .p-1 {
     padding: 12px 24px;
 }
+.p-2{
+    padding: 60px 0px;
+}
+.p-3{
+    padding: 14px 28px;
+}
+.p-4{
+    padding: 10px;
+}
 
 
 /* -------------------------------MARGIN----------------- */
@@ -94,7 +117,18 @@
 .ml50 {
     margin-left: 50px;
 }
-
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
 /* ------------------------------Width------------------- */
 
 .w-1 {
@@ -127,6 +161,13 @@
 
 .w-15 {
     width: 15%;
+}
+.w-40{
+    width: 40%;
+}
+.w-30-p{
+    width: 30px;
+    height: 100%;
 }
 
 .nav {
@@ -166,7 +207,10 @@
 .bg2 {
     background-color: #F7F1F0;
 }
-
+.bg3{
+    background-color: #C3A6A0;
+}
+ 
 
 
 /* ----------------------------Justify--------------------- */
@@ -184,13 +228,21 @@
     align-items: center;
 }
 
-.justify {
+.justify{
     justify-content: end;
-    align-items: center;
+    align-items: end;
 }
 
 .space-between {
     justify-content: space-between;
+}
+.justify2{
+    justify-content: end;
+    align-items: center;
+}
+.justify3{
+    justify-content: center;
+    align-items: start;
 }
 
 
@@ -201,7 +253,53 @@
     text-decoration: none;
     padding: 10px 25px;
 }
-
+.upside{
+    position: relative;
+    top: -75px;
+    left: 0px;
+    /* width: 1320px; */
+}
+.responsive .slick-next{
+    right: 0px !important;
+}
+.sir{
+    top: 30px;
+    right: 0px;
+    background-color: #A15C38;
+    width: 100px;
+    z-index: 4;
+}
+.sir1{
+    top: 30px;
+    left: -7px;
+    background-color: #A15C38;
+    width: 100px;
+    z-index: 4;
+}
+.speak{
+    top: 42px;
+    right: 59px;
+    /* border: 1px solid red; */
+    width: 47px;
+    height: 28px;
+    rotate: 36deg;
+    z-index: 3;
+    background-color: #A15C38;
+}
+.speak1{
+    /* border: 1px solid red; */
+    width: 29px;
+    height: 28px;
+    top: 50px;
+    left: 66px;
+    rotate: 47deg;
+    background-color: #A15C38;
+    z-index: 3;
+}
+.responsive .slick-prev{
+     left: 0px !important;
+     z-index: 4;
+}
 .gara {
     font-family: "EB Garamond", serif;
 }
@@ -213,13 +311,22 @@
 .border-none {
     border: none;
 }
-
+ 
 .border-radius {
     border-radius: 5px;
+}
+.border-radius50{
+    border-radius: 50%;
+}
+.border-radius10{
+    border-radius: 10px;
 }
 
 .box-shadow {
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+.box-shadow1{
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.08);
 }
 
 .relative {
@@ -229,9 +336,34 @@
 .absolute {
     position: absolute;
 }
-
-.button::before {
-    content: "f054";
+.arrow{
+    /* border: 1px solid red; */
+    top: 0px;
+    left: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 50% 50% 0;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.292);
+    transform: scale(0,1);
+    overflow: hidden;
+    width: 30px;
+    height: 100%;
+}
+.button:hover .arrow{
+    transform: scale(1,1);
+}
+.z-index{
+    z-index: 2;
+    position: relative;
+}
+.box-shadow1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* .button::before {
+    content: "\f054";
+    font-family: "Font Awesome 6 Pro";
     width: 30px;
     height: 100%;
     border: 1px solid red;
@@ -249,13 +381,14 @@
 }
 .button:hover ::before{
     transform: scale(1,1);
-}
+} */
+ 
 
 
 /* ------------------------------Hover------------------------- */
 
 .button {
-    transition: 0.3s;
+    transition: all 0.2s linear 0s;
 }
 
 .button:hover {
