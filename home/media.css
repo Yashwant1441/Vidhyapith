@@ -65,6 +65,12 @@
         top: 42px;
         left: 25px;
     }
+    .font40{
+        font-size: 24px;
+    }
+    .lh50{
+        line-height: 30px;
+    } 
 }
 
 @media(min-width:576px) {
@@ -106,6 +112,12 @@
     .speak1 {
         top: 39px;
         left: 50px;
+    }
+    .font40{
+        font-size: 26px;
+    }
+    .lh50{
+        line-height: 30px;
     }
 }
 
@@ -158,6 +170,12 @@
     .h1-767{
         height: 5%;
         width: 20%;
+    }
+    .font40{
+        font-size: 32px;
+    }
+    .lh50{
+        line-height: 40px;
     }
 }
 
@@ -230,5 +248,11 @@
 
     .w-2 {
         width: 50%;
+    }
+    .font40{
+        font-size: 40px;
+    }
+    .lh50{
+        line-height: 50px;
     }
 }

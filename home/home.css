@@ -52,7 +52,12 @@
 .font30 {
     font-size: 30px;
 }
-
+.font28{
+    font-size: 28px;
+}
+.font32{
+    font-size: 32px;
+}
 .font18 {
     font-size: 18px;
 }
@@ -69,6 +74,9 @@
 }
 .lh50{
     line-height: 50px;
+}
+.lh28{
+    line-height: 28px;
 }
 
 .lh8 {
@@ -106,6 +114,9 @@
 .p-4{
     padding: 10px;
 }
+.p-32{
+    padding: 32px;
+}
 
 
 /* -------------------------------MARGIN----------------- */
@@ -128,6 +139,9 @@
 }
 .mb-5{
     margin-bottom: 5px;
+}
+.mt-100{
+    margin-top: 100px;
 }
 /* ------------------------------Width------------------- */
 
@@ -180,8 +194,6 @@
 .h-100 {
     height: 100px;
 }
-
-
 /* ------------------------fluids----------------------------- */
 
 .fluid1 {
@@ -252,6 +264,25 @@
     display: inline-block;
     text-decoration: none;
     padding: 10px 25px;
+}
+.video{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.349);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+.upper{
+    position: relative;
+    top: 0px;
 }
 .upside{
     position: relative;
