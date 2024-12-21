@@ -9,7 +9,18 @@
     margin: auto;
     /* border: 1px solid black; */
 }
-.conatiner1{
+
+.conatiner1 {
+    width: 100%;
+}
+.container2{
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 600px;
+}
+.container3{
+    position: relative;
     width: 100%;
 }
 
@@ -18,7 +29,8 @@
     flex-wrap: wrap;
     /* justify-content: space-evenly; */
 }
-.d-flex1{
+
+.d-flex1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -27,11 +39,17 @@
 .box {
     width: 100%;
     height: 100%;
+    overflow: hidden;
     /* padding: 10px; */
 }
 
-.border {
+.border{
     border: 1px solid red;
+}
+
+.border1 {
+    border: 1px solid rgb(117 117 117);
+    border-radius: 5px;
 }
 
 
@@ -49,19 +67,27 @@
     font-size: 24px;
 }
 
+.font20 {
+    font-size: 20px;
+}
+
 .font30 {
     font-size: 30px;
 }
-.font28{
+
+.font28 {
     font-size: 28px;
 }
-.font32{
+
+.font32 {
     font-size: 32px;
 }
+
 .font18 {
     font-size: 18px;
 }
-.font40{
+
+.font40 {
     font-size: 40px;
 }
 
@@ -72,10 +98,12 @@
 .lh5 {
     line-height: 1.5;
 }
-.lh50{
+
+.lh50 {
     line-height: 50px;
 }
-.lh28{
+
+.lh28 {
     line-height: 28px;
 }
 
@@ -105,16 +133,20 @@
 .p-1 {
     padding: 12px 24px;
 }
-.p-2{
+
+.p-2 {
     padding: 60px 0px;
 }
-.p-3{
+
+.p-3 {
     padding: 14px 28px;
 }
-.p-4{
+
+.p-4 {
     padding: 10px;
 }
-.p-32{
+
+.p-32 {
     padding: 32px;
 }
 
@@ -128,21 +160,31 @@
 .ml50 {
     margin-left: 50px;
 }
-.mb-10{
+
+.mb-10 {
     margin-bottom: 10px;
 }
-.mb-40{
+
+.mb-40 {
     margin-bottom: 40px;
 }
-.mb-15{
+
+.mb-15 {
     margin-bottom: 15px;
 }
-.mb-5{
+
+.mb-5 {
     margin-bottom: 5px;
 }
-.mt-100{
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-100 {
     margin-top: 100px;
 }
+
 /* ------------------------------Width------------------- */
 
 .w-1 {
@@ -176,10 +218,12 @@
 .w-15 {
     width: 15%;
 }
-.w-40{
+
+.w-40 {
     width: 40%;
 }
-.w-30-p{
+
+.w-30-p {
     width: 30px;
     height: 100%;
 }
@@ -194,6 +238,7 @@
 .h-100 {
     height: 100px;
 }
+
 /* ------------------------fluids----------------------------- */
 
 .fluid1 {
@@ -212,6 +257,10 @@
     color: #262220;
 }
 
+.fluid5 {
+    color: rgb(117 117 117);
+}
+
 .bg1 {
     background-color: #A15C38;
 }
@@ -219,10 +268,11 @@
 .bg2 {
     background-color: #F7F1F0;
 }
-.bg3{
+
+.bg3 {
     background-color: #C3A6A0;
 }
- 
+
 
 
 /* ----------------------------Justify--------------------- */
@@ -240,7 +290,7 @@
     align-items: center;
 }
 
-.justify{
+.justify {
     justify-content: end;
     align-items: end;
 }
@@ -248,11 +298,13 @@
 .space-between {
     justify-content: space-between;
 }
-.justify2{
+
+.justify2 {
     justify-content: end;
     align-items: center;
 }
-.justify3{
+
+.justify3 {
     justify-content: center;
     align-items: start;
 }
@@ -265,11 +317,109 @@
     text-decoration: none;
     padding: 10px 25px;
 }
-.video{
+.im{
+    width: 100px;
+    height: 100px;
+}
+.im1{
+    width: 67px;
+    height: 73px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.ime1 {
+    background: url(/home/images/upper/kota.webp);
+    background-blend-mode: unset;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    transition: 0.5s;
+    animation-duration: 0.3s;
+}
+.ime2 {
+    background: url(/home/images/upper/kota-next.webp);
+    background-blend-mode: unset;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    transition: 0.5s;
+    animation-duration: 0.3s;
+}
+.ime3 {
+    background: url(/home/images/upper/stupa.webp);
+    background-blend-mode: unset;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    transition: 0.5s;
+    animation-duration: 0.3s;
+}
+.ime4 {
+    background: url(/home/images/upper/building.webp);
+    background-blend-mode: unset;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    transition: 0.5s;
+    animation-duration: 0.3s;
+}
+.ime5 {
+    background: url(/home/images/upper/delhi.webp);
+    background-blend-mode: unset;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    transition: 0.5s;
+    animation-duration: 0.3s;
+}
+.ime6 {
+    background: url(/home/images/upper/bridge.webp);
+    background-blend-mode: unset;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    transition: 0.5s;
+    animation-duration: 0.3s;
+}
+.ime7 {
+    background: url(/home/images/upper/fort.webp);
+    background-blend-mode: unset;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    transition: 0.5s;
+    animation-duration: 0.3s;
+}
+.ime8 {
+    background: url(/home/images/upper/jaipur.webp);
+    background-blend-mode: unset;
+    width: 67px;
+    height: 73px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position: center;
+    transition: 0.5s;
+    animation-duration: 0.3s;
+}
+.box:hover .im {
+    scale: 1.7;
+    background-blend-mode: overlay;
+}
+.box:hover .im1 {
+    scale: 1.5;
+    background-blend-mode: overlay;
+}
+
+.video {
     position: absolute;
     /* border: 1px solid red; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     top: 0px;
     left: 0px;
     background-blend-mode: overlay;
@@ -277,37 +427,46 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
-.upper{
-    position: relative;
-    top: 0px;
+
+.upper {
+    
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 12px 0px;
 }
-.upside{
+
+.upside {
     position: relative;
     top: -75px;
     left: 0px;
     /* width: 1320px; */
 }
-.responsive .slick-next{
+
+.responsive .slick-next {
     right: 0px !important;
 }
-.sir{
+
+.sir {
     top: 30px;
     right: 0px;
     background-color: #A15C38;
     width: 100px;
     z-index: 4;
+    border-radius: 5px;
 }
-.sir1{
+
+.sir1 {
     top: 30px;
     left: -7px;
     background-color: #A15C38;
     width: 100px;
     z-index: 4;
+    border-radius: 5px;
 }
-.speak{
+
+.speak {
     top: 42px;
     right: 59px;
     /* border: 1px solid red; */
@@ -317,7 +476,8 @@
     z-index: 3;
     background-color: #A15C38;
 }
-.speak1{
+
+.speak1 {
     /* border: 1px solid red; */
     width: 29px;
     height: 28px;
@@ -327,10 +487,12 @@
     background-color: #A15C38;
     z-index: 3;
 }
-.responsive .slick-prev{
-     left: 0px !important;
-     z-index: 4;
+
+.responsive .slick-prev {
+    left: 0px !important;
+    z-index: 4;
 }
+
 .gara {
     font-family: "EB Garamond", serif;
 }
@@ -342,21 +504,24 @@
 .border-none {
     border: none;
 }
- 
+
 .border-radius {
     border-radius: 5px;
 }
-.border-radius50{
+
+.border-radius50 {
     border-radius: 50%;
 }
-.border-radius10{
+
+.border-radius10 {
     border-radius: 10px;
 }
 
 .box-shadow {
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
 }
-.box-shadow1{
+
+.box-shadow1 {
     box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.08);
 }
 
@@ -367,7 +532,8 @@
 .absolute {
     position: absolute;
 }
-.arrow{
+
+.arrow {
     /* border: 1px solid red; */
     top: 0px;
     left: -7px;
@@ -377,43 +543,31 @@
     border-radius: 0 50% 50% 0;
     background-blend-mode: overlay;
     background-color: rgba(255, 255, 255, 0.292);
-    transform: scale(0,1);
+    transform: scale(0, 1);
     overflow: hidden;
     width: 30px;
     height: 100%;
 }
-.button:hover .arrow{
-    transform: scale(1,1);
+
+.button:hover .arrow {
+    transform: scale(1, 1);
 }
-.z-index{
+
+.z-index {
     z-index: 2;
     position: relative;
 }
-.box-shadow1{
+
+.box-shadow1 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-/* .button::before {
-    content: "\f054";
-    font-family: "Font Awesome 6 Pro";
-    width: 30px;
-    height: 100%;
-    border: 1px solid red;
-    border-radius: 0 50% 50% 0;
-    background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.432);
-    transform: scale(1,1);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
+
+.line {
+    border: 1px solid rgb(117 117 117);
+    width: 100px;
+    height: 0px;
 }
-.button:hover ::before{
-    transform: scale(1,1);
-} */
- 
+
 
 
 /* ------------------------------Hover------------------------- */
@@ -433,4 +587,8 @@
 .space:hover {
     letter-spacing: 5px;
     border-bottom: 5px solid #A15C38;
+}
+
+.box0:hover .ime1 {
+    animation-timing-function: cubic-bezier(0, 0, .2, 1);
 }

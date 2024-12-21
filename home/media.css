@@ -65,12 +65,40 @@
         top: 42px;
         left: 25px;
     }
-    .font40{
+
+    .font40 {
         font-size: 24px;
     }
-    .lh50{
+
+    .lh50 {
         line-height: 30px;
-    } 
+    }
+
+    .container2 {
+        top: 220px;
+    }
+
+    .font32 {
+        font-size: 18px;
+    }
+
+    .font18 {
+        font-size: 12px;
+    }
+
+    .im {
+        width: 50px;
+        height: 50px;
+    }
+
+    .im1 {
+        width: 50px;
+        height: 63px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        /* margin-bottom: 10px; */
+    }
 }
 
 @media(min-width:576px) {
@@ -113,11 +141,17 @@
         top: 39px;
         left: 50px;
     }
-    .font40{
+
+    .font40 {
         font-size: 26px;
     }
-    .lh50{
+
+    .lh50 {
         line-height: 30px;
+    }
+
+    .container2 {
+        top: 320px;
     }
 }
 
@@ -163,19 +197,27 @@
         top: 50px;
         left: 66px;
     }
-    .h-767{
+
+    .h-767 {
         height: 10%;
         width: 30%;
     }
-    .h1-767{
+
+    .h1-767 {
         height: 5%;
         width: 20%;
     }
-    .font40{
+
+    .font40 {
         font-size: 32px;
     }
-    .lh50{
+
+    .lh50 {
         line-height: 40px;
+    }
+
+    .container2 {
+        top: 380px;
     }
 }
 
@@ -215,6 +257,10 @@
     .box123 {
         display: flex;
     }
+
+    .container2 {
+        top: 460px;
+    }
 }
 
 @media(min-width:1200px) {
@@ -249,10 +295,16 @@
     .w-2 {
         width: 50%;
     }
-    .font40{
+
+    .font40 {
         font-size: 40px;
     }
-    .lh50{
+
+    .lh50 {
         line-height: 50px;
+    }
+
+    .container2 {
+        top: 600px;
     }
 }
