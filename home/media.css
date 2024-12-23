@@ -49,6 +49,7 @@
     .sir {
         width: 60px;
         top: 0px;
+        font-size: 14px;
     }
 
     .speak {
@@ -59,6 +60,7 @@
     .sir1 {
         width: 60px;
         top: 0px;
+        font-size: 14px;
     }
 
     .speak1 {
@@ -98,6 +100,46 @@
         margin-left: 0px;
         margin-right: 0px;
         /* margin-bottom: 10px; */
+    }
+    .h-500{
+        height: 728px;
+    }
+    .mt-40{
+        margin-top: 20px;
+    }
+    .h-200{
+        height: 250px;
+    }
+    .h-160{
+        height: 160px;
+    }
+    .w-160{
+        width: 160px;
+    }
+    .ime-card{
+        width: 60%;
+        height: 40px;
+    }
+    .im-card-hover{
+        top: 25px;
+    }
+    .ime-card1{
+        width: 60%;
+        height: 40px;
+    }
+    .ime-card2{
+        width: 60%;
+        height: 40px;
+    }
+    .ime-card3{
+        width: 60%;
+        height: 40px;
+    }
+    .md-160{
+        width: 170px;
+    }
+    .h-160{
+        height: 170px;
     }
 }
 
@@ -153,6 +195,34 @@
     .container2 {
         top: 320px;
     }
+    .h-500{
+        height: 796px;
+    }
+    .ime-card{
+        width: 60%;
+        height: 60px;
+    }
+    .im-card-hover{
+        top: 14px;
+    }
+    .ime-card1{
+        width: 60%;
+        height: 60px;
+    }
+    .ime-card2{
+        width: 60%;
+        height: 60px;
+    }
+    .ime-card3{
+        width: 60%;
+        height: 60px;
+    }
+    .md-160{
+        width: 270px;
+    }
+    .h-160{
+        height: 170px;
+    }
 }
 
 @media(min-width:767px) {
@@ -175,7 +245,9 @@
     .md-5 {
         width: 20%;
     }
-
+    .md-160{
+        width: 350px;
+    }
     .sir {
         width: 100px;
         top: 30px;
@@ -219,6 +291,41 @@
     .container2 {
         top: 380px;
     }
+    .font32 {
+        font-size: 32px;
+    }
+
+    .font18 {
+        font-size: 18px;
+    }
+    .h-500{
+        height: 857px;
+    }
+    .h-160{
+        height: 200px;
+    }
+    .ime-card{
+        width: 70%;
+        height: 60px;
+    }
+    .im-card-hover{
+        top: 25px;
+    }
+    .ime-card1{
+        width: 70%;
+        height: 60px;
+    }
+    .ime-card2{
+        width: 70%;
+        height: 60px;
+    }
+    .ime-card3{
+        width: 70%;
+        height: 60px;
+    }
+    .mt-40{
+        margin-top: 40px;
+    }
 }
 
 @media(min-width:991px) {
@@ -260,6 +367,45 @@
 
     .container2 {
         top: 460px;
+    }
+    .im{
+        width: 100px;
+        height: 100px;
+    }
+    .im1{
+        width: 67px;
+        height: 73px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    .h-500{
+        height: 865px;
+    }
+    .mt-40{
+        margin-top: 30px;
+    }
+    .h-160{
+        height: 260px;
+    }
+    .ime-card{
+        width: 100%;
+        height: 100px;
+    }
+    .im-card-hover{
+        top: 30px;
+    }
+    .ime-card1{
+        width: 100%;
+        height: 100px;
+    }
+    .ime-card2{
+        width: 100%;
+        height: 100px;
+    }
+    .ime-card3{
+        width: 100%;
+        height: 100px;
     }
 }
 
@@ -305,6 +451,15 @@
     }
 
     .container2 {
-        top: 600px;
+        top: 560px;
+    }
+    .h-500{
+        height: 945px;
+    }
+    .mt-40{
+        margin-top: 40px;
+    }
+    .h-160{
+        height: 260px;
     }
 }
