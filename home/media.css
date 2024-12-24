@@ -144,6 +144,16 @@
         justify-content: center;
         align-items: center;
     }
+    .font36{
+        font-size: 24px;
+    }
+    .mb-350-1{
+        margin-bottom: 20px;
+    }
+    /* .section1-img{
+        width: 500px;
+        height: 100px;
+    } */
 }
 
 @media(min-width:576px) {
@@ -329,6 +339,9 @@
     .mt-40{
         margin-top: 40px;
     }
+    .font36{
+        font-size: 30px;
+    }
 }
 
 @media(min-width:991px) {
@@ -415,6 +428,9 @@
     }
     .w-40{
         width: 40%;
+    }
+    .font36{
+        font-size: 36px;
     }
 }
 
