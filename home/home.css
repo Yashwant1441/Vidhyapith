@@ -13,13 +13,15 @@
 .conatiner1 {
     width: 100%;
 }
-.container2{
+
+.container2 {
     width: 100%;
     background-color: transparent;
     position: absolute;
     top: 550px;
 }
-.container3{
+
+.container3 {
     position: relative;
     width: 100%;
 }
@@ -43,7 +45,7 @@
     /* padding: 10px; */
 }
 
-.border{
+.border {
     border: 1px solid red;
 }
 
@@ -83,10 +85,15 @@
     font-size: 32px;
 }
 
+.font36 {
+    font-size: 36px;
+}
+
 .font18 {
     font-size: 18px;
 }
-.font-118{
+
+.font-118 {
     font-size: 18px;
 }
 
@@ -153,6 +160,10 @@
     padding: 32px;
 }
 
+.p-5 {
+    padding: 24px 14px;
+}
+
 
 /* -------------------------------MARGIN----------------- */
 
@@ -175,7 +186,8 @@
 .mb-15 {
     margin-bottom: 15px;
 }
-.mb-20{
+
+.mb-20 {
     margin-bottom: 20px;
 }
 
@@ -186,17 +198,20 @@
 .mt-20 {
     margin-top: 20px;
 }
-.mt-40{
+
+.mt-40 {
     margin-top: 40px;
 }
 
 .mt-100 {
     margin-top: 100px;
 }
-.margin-card{
+
+.margin-card {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 /* ------------------------------Width------------------- */
 
 .w-1 {
@@ -222,16 +237,20 @@
 .w-30 {
     width: 30%;
 }
-.w-40{
+
+.w-40 {
     width: 40%;
 }
-.w-55{
+
+.w-55 {
     width: 55%;
 }
-.w-60{
+
+.w-60 {
     width: 60%;
 }
-.w-70{
+
+.w-70 {
     width: 70%;
 }
 
@@ -262,6 +281,7 @@
 .h-100 {
     height: 100px;
 }
+
 /* ------------------------fluids----------------------------- */
 
 .fluid1 {
@@ -283,8 +303,13 @@
 .fluid5 {
     color: rgb(117 117 117);
 }
-.fluid6{
+
+.fluid6 {
     color: rgb(61 61 61);
+}
+
+.fluid7 {
+    color: rgb(0 0 0 / 6%);
 }
 
 .bg1 {
@@ -298,27 +323,32 @@
 .bg3 {
     background-color: #C3A6A0;
 }
-.bg4{
+
+.bg4 {
     background-color: rgb(255, 243, 227);
 }
-.bg5{
+
+.bg5 {
     background-color: rgb(255, 238, 238);
 }
 
-.bg6{
+.bg6 {
     background-color: rgb(228, 250, 255);
 }
-.bg7{
+
+.bg7 {
     background-color: rgb(236, 231, 255);
 }
 
-.bg8{
+.bg8 {
     background-image: linear-gradient(rgb(255, 235, 197) 0%, rgb(255, 255, 255) 22.79%, rgb(255, 230, 191) 100%);
 }
-.bg9{
+
+.bg9 {
     background-image: linear-gradient(rgb(201, 200, 200) 0%, rgb(255, 255, 255) 22.79%, rgb(205, 205, 205) 100%);
 }
-.bg10{
+
+.bg10 {
     background-color: rgb(248 248 248);
 }
 
@@ -346,9 +376,11 @@
 .space-between {
     justify-content: space-between;
 }
-.space-evenly{
+
+.space-evenly {
     justify-content: space-evenly;
 }
+
 .justify2 {
     justify-content: end;
     align-items: center;
@@ -367,41 +399,53 @@
     text-decoration: none;
     padding: 10px 25px;
 }
-.sticky{
+
+.sticky {
     position: sticky;
     top: 75px;
     z-index: 1;
 }
+
 .box a {
     display: inline-block;
     text-decoration: none;
     padding: 10px 25px;
 }
-.im{
+
+.box-shadow10 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.im {
     width: 100px;
     height: 100px;
 }
-.sticky0{
+
+.sticky0 {
     position: sticky;
     top: 10px;
     z-index: 2;
 }
-.sticky1{
+
+.sticky1 {
     position: sticky;
     top: 75px;
     z-index: 2;
 }
-.sticky2{
+
+.sticky2 {
     position: sticky;
     top: 75px;
     z-index: 3;
 }
-.sticky3{
+
+.sticky3 {
     position: sticky;
     top: 75px;
     z-index: 4;
 }
-.im1{
+
+.im1 {
     width: 67px;
     height: 73px;
     margin-top: 15px;
@@ -418,6 +462,7 @@
     transition: 0.5s;
     animation-duration: 0.3s;
 }
+
 .ime2 {
     background: url(/home/images/upper/kota-next.webp);
     background-blend-mode: unset;
@@ -427,6 +472,7 @@
     transition: 0.5s;
     animation-duration: 0.3s;
 }
+
 .ime3 {
     background: url(/home/images/upper/stupa.webp);
     background-blend-mode: unset;
@@ -436,6 +482,7 @@
     transition: 0.5s;
     animation-duration: 0.3s;
 }
+
 .ime4 {
     background: url(/home/images/upper/building.webp);
     background-blend-mode: unset;
@@ -445,6 +492,7 @@
     transition: 0.5s;
     animation-duration: 0.3s;
 }
+
 .ime5 {
     background: url(/home/images/upper/delhi.webp);
     background-blend-mode: unset;
@@ -454,6 +502,7 @@
     transition: 0.5s;
     animation-duration: 0.3s;
 }
+
 .ime6 {
     background: url(/home/images/upper/bridge.webp);
     background-blend-mode: unset;
@@ -463,6 +512,7 @@
     transition: 0.5s;
     animation-duration: 0.3s;
 }
+
 .ime7 {
     background: url(/home/images/upper/fort.webp);
     background-blend-mode: unset;
@@ -472,6 +522,7 @@
     transition: 0.5s;
     animation-duration: 0.3s;
 }
+
 .ime8 {
     background: url(/home/images/upper/jaipur.webp);
     background-blend-mode: unset;
@@ -486,7 +537,8 @@
     transition: 0.5s;
     animation-duration: 0.3s;
 }
-.ime-card{
+
+.ime-card {
     background-image: url(images/Cards/girl.webp);
     width: 100%;
     height: 100px;
@@ -494,7 +546,8 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.ime-card1{
+
+.ime-card1 {
     background-image: url(images/Cards/book.webp);
     width: 100%;
     height: 100px;
@@ -502,7 +555,8 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.ime-card2{
+
+.ime-card2 {
     background-image: url(images/Cards/computer.webp);
     width: 100%;
     height: 100px;
@@ -510,7 +564,8 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.ime-card3{
+
+.ime-card3 {
     background-image: url(images/Cards/paper.webp);
     width: 100%;
     height: 100px;
@@ -518,10 +573,12 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .box:hover .im {
     scale: 1.7;
     background-blend-mode: overlay;
 }
+
 .box:hover .im1 {
     scale: 1.5;
     background-blend-mode: overlay;
@@ -542,14 +599,15 @@
     justify-content: center;
     align-items: center;
 }
- 
+
 
 .upper {
-    
+
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 12px 0px;
 }
-.letter{
+
+.letter {
     letter-spacing: 2px;
 }
 
@@ -565,16 +623,18 @@
 }
 
 .sir {
-    top: 30px;
-    right: 0px;
+    top: 13px;
+    right: 16px;
     background-color: #A15C38;
     width: 100px;
     z-index: 4;
     border-radius: 5px;
 }
-.absolute{
+
+.absolute {
     position: absolute;
 }
+
 .sir1 {
     top: 30px;
     left: -7px;
@@ -666,12 +726,14 @@
     width: 30px;
     height: 100%;
 }
-.foot a{
+
+.foot a {
     display: inline-block;
     padding: 0px;
     text-decoration: none;
 }
-.foot1 a{
+
+.foot1 a {
     display: inline-block;
     padding: 0px;
     text-decoration: none;
@@ -680,7 +742,8 @@
 .button:hover .arrow {
     transform: scale(1.2, 1);
 }
-.button:hover .slide{
+
+.button:hover .slide {
     transform: translateX(20px);
 }
 
@@ -698,17 +761,19 @@
     width: 100px;
     height: 0px;
 }
-.overflow{
+
+.overflow {
     overflow: hidden;
 }
- 
+
 
 
 /* ------------------------------Hover------------------------- */
 
 .button {
-    transition: all 0.9s ease-in-out 3s;
+    transition: all 0.9s;
 }
+
 .space {
     transition: 0.3s;
 }
@@ -721,21 +786,22 @@
 .box0:hover .ime1 {
     animation-timing-function: cubic-bezier(0, 0, .2, 1);
 }
-.im-card-hover{
-    transition-duration: 1s;
-    transition-timing-function: linear;
-    transform:  scale(1,1);
-    position: relative;
-    top: 30px;
-    left: 0px;
-    display: none;
+
+.im-card-hover {
+    transition: all 0.5s;
+    transform: scale(0.0) translateY(100%);
+
+
+    /* display: none; */
     /* border: 1px solid red; */
 }
-.box:hover .im-card-hover{
-    display: flex;
-    transform: scale(1,1);
+
+.box:hover .im-card-hover {
+    /* display: flex; */
+    transform: scale(1) translateY(0%);
 }
-.foot:hover a{
+
+.foot:hover a {
     color: #262220;
     border-bottom: 1px solid #262220;
     letter-spacing: 2px;

@@ -140,6 +140,10 @@
     .h-160{
         height: 170px;
     }
+    .justify350{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media(min-width:576px) {
@@ -249,24 +253,24 @@
     }
     .sir {
         width: 100px;
-        top: 30px;
-        right: 0px;
+        top: 13px;
+        right: 16px;
     }
 
     .speak {
-        top: 42px;
-        right: 59px;
+        top: 24px;
+        right: 76px;
     }
 
     .sir1 {
         width: 100px;
-        top: 30px;
-        left: -7px;
+        top: 4px;
+        left: 15px;
     }
 
     .speak1 {
-        top: 50px;
-        left: 66px;
+        top: 15px;
+        left: 88px;
     }
 
     .h-767 {
@@ -472,5 +476,9 @@
     }
     .w-40{
         width: 40%;
+    }
+    .justify350{
+        justify-content: center;
+        align-items: start;
     }
 }
